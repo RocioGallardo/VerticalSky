@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  body {
+      background-color: lightgray;
+      padding: 0px;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .logoVertical {
+      width: 200px;
+  }
+
+  .nav {
+      width: 300px;
+
+  }
+
+  .navLink {
+      color: #303440;
+      display: block;
+      padding: 15px 0;
+      text-decoration: none;
+
+  }
+
+  .navLinkInside {
+      border-radius: 6px;
+      padding-left: 20px;
+      text-align: left;
+  }
+
+  .navLinkInside:hover {
+      background-color: #f6f8fa;
+  }
+
+  .list {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 0 16px 16px 0;
+      background-color: #fff;
+  }
+
+  .listItem {
+      list-style: none;
+      width: 100%;
+      text-align: left;
+      overflow: hidden;
+
+  }
+
+  .listItemClick {
+      cursor: pointer;
+  }
+
+   .listButton {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      width: 70%;
+      margin: 0 auto;
+   }
+
+  .listBotton {
+      
+      display: flex;
+      align-items: center;
+  }
+
+  .arrow .listArrow {
+      transform: rotate(90deg);
+  }
+
+  .listArrow {
+      margin-left: 10px;
+      transition: transform .3s;
+  }
+
+  .listShow {
+      width: 80%;
+      margin-left: 10px;
+      border-left: 2px solid #303440;
+      list-style: none;
+      transition: height .4s;
+      height: 0;
+  }
